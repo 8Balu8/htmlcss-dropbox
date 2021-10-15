@@ -56,7 +56,11 @@ main {
 .jumbotron {
     width: 85%;
     margin:auto;
+    position: relative;
 
     /* TEST */
-    height: 200px;
+    /* height: 200px; */
+}
+.jumbotron p {
+    width: 30%;
 }
