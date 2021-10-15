@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px solid red
 }
 
 /* COMMON */
@@ -23,6 +23,12 @@ body {
 header {
     position: fixed;
     width: 100%;
+    top:0;
+    height: 50px;
+}
+.col-nav {
+    height: 50px;
+    line-height: 50px;
 }
 .col-logo {
     width: 10%;
@@ -42,8 +48,15 @@ header {
 
 /* MAIN */
 main {
-    position: relative;
+    margin-top: 50px;
+}
+.contain-jumbotron {
+    background-color: royalblue;
 }
 .jumbotron {
-    width: 90%;
+    width: 85%;
+    margin:auto;
+
+    /* TEST */
+    height: 200px;
 }
