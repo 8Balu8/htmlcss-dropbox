@@ -3,9 +3,47 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 1px solid red;
 }
 
+/* COMMON */
 body {
     font-family: 'Open Sans',sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col {
+    float: left;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+}
+.col-logo {
+    width: 10%;
+    text-align: center;
+}
+.col-menu-left {
+    width: 40%;
+}
+.col-menu-right {
+    width: 40%;
+    text-align: end;
+}
+.col-start {
+    width: 10%;
+    text-align: center;
+}
+
+/* MAIN */
+main {
+    position: relative;
+}
+.jumbotron {
+    width: 90%;
 }
