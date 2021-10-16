@@ -109,9 +109,10 @@ div.col-nav li:hover {
     color: white;
     background-color: #0061ff;
 }
-/* .box-btn {
-    width: 20%;
-} */
+.btn-white {
+    color: black;
+    border: 1px solid black;
+}
 
 /* MAIN */
 main {
@@ -246,4 +247,46 @@ hr {
 }
 .enterprise h5 {
     margin-bottom: 3%;
+}
+
+/* Section 2 */
+.contain-partner {
+    margin-top: 10%
+}
+.col-img {
+    width: 55%;
+    margin-right: 5%;
+}
+.col-text {
+    width: 40%;
+}
+.col-text h3 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.col-text p {
+    margin-bottom: 8%;
+}
+
+/* Section 3 */
+
+/* Row1 */
+.contain-operations h2 {
+    margin-top: 10%;
+}
+.col-operations, .col-operations-center {
+    width: 30%;
+    margin-top: 2%;
+}
+.col-operations-center {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.margin-operations-h3 {
+    margin-bottom: 5%;
+}
+
+/* Row2 */
+.row2-operations {
+    margin-top: 7%;
 }
