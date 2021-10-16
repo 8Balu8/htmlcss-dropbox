@@ -45,6 +45,7 @@ header {
     width: 100%;
     top:0;
     height: 50px;
+    border-bottom: 1px solid gray;
 }
 .col-nav {
     height: 50px;
@@ -64,6 +65,9 @@ header {
 }
 
 /* Menu Nav */
+.col-nav li {
+    height: 50px;
+}
 .col-menu-left {
     width: 40%;
 }
@@ -78,7 +82,7 @@ header {
     margin-left: 7%;
 }
 div.col-nav li:hover {
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
 }
 .col-start {
     width: 10%;
