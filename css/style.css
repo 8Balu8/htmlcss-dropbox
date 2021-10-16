@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red
+    /* border: 1px solid red */
 }
 
 /* COMMON */
@@ -17,6 +17,23 @@ body {
 }
 .col {
     float: left;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.txt13 {
+    color: black;
+    font-size: 13px;
 }
 
 /* HEADER */
@@ -34,16 +51,43 @@ header {
     width: 10%;
     text-align: center;
 }
+.col-logo img {
+    vertical-align: middle;
+}
+.logo-img {
+    width: 72%;
+}
 .col-menu-left {
     width: 40%;
+}
+.col-menu-left li {
+    margin-right: 7%;
 }
 .col-menu-right {
     width: 40%;
     text-align: end;
 }
+.col-menu-right li {
+    margin-left: 7%;
+}
 .col-start {
     width: 10%;
     text-align: center;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    line-height: normal;
+    font-size: 13px;
+    padding: 2% 10%;
+}
+.btn-blu {
+    color: white;
+    background-color: #0061ff;
+}
+.box-btn {
+    width: 20%;
 }
 
 /* MAIN */
@@ -99,4 +143,8 @@ main {
 .col-standard {
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.buynow a {
+    text-decoration: underline;
 }
