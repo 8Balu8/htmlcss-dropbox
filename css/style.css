@@ -68,7 +68,7 @@ header {
 
 /* Menu Nav */
 .col-nav li {
-    height: 50px;
+    height: 47px;
     display: inline-block;
     list-style: none;
 }
@@ -133,7 +133,6 @@ h1 {
 }
 .jumbotron p {
     width: 30%;
-    padding-top: 3%;
 }
 .jumbotron div.txt11 {
     padding-top: 1%;
@@ -193,6 +192,11 @@ div.cont-col h3 {
     text-align: center;
     margin: 15% 0;
 }
+.try-plan:hover {
+    color: white;
+    background-color: #0061ff;
+    border-color: #0061ff;
+}
 .top-col-plan {
     padding: 2% 0;
     border-bottom: 1px solid lightgray;
@@ -207,6 +211,12 @@ div.cont-col h3 {
 .col-standard {
     margin-left: 5%;
     margin-right: 5%;
+}
+.functions {
+    padding-left: 7%;
+}
+#icon {
+    margin-left: -7%;
 }
 .buynow a {
     text-decoration: underline;
@@ -245,7 +255,7 @@ hr {
 .enterprise h3 {
     margin-bottom: 2%;
 }
-.enterprise h5 {
+.enterprise h5, p {
     margin-bottom: 3%;
 }
 
