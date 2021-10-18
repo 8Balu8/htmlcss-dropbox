@@ -218,7 +218,7 @@ div.cont-col h3 {
 #icon {
     margin-left: -7%;
 }
-.buynow a {
+.special-link a {
     text-decoration: underline;
 }
 hr {
@@ -299,4 +299,16 @@ hr {
 /* Row2 */
 .row2-operations {
     margin-top: 7%;
+}
+
+/* Logos clients */
+.col-logos {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+.col.text {
+    width: calc(100% - 800px);
+    background-color: chocolate;
+    height: 400px;
 }
