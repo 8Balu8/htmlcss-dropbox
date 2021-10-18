@@ -370,3 +370,47 @@ hr {
 #clearch {
     background-color: #ffd830;
 }
+
+/* Come in Dropbox Business */
+.contain-cta {
+    background-color: #b4d0e7;
+}
+.cta {
+    width: 70%;
+    margin: auto;
+    padding: 8% 0;
+
+}
+.cta h2 {
+    display: inline-block;
+    color: #61082b;
+}
+.cta a {
+    float: right;
+    background-color: white;
+}
+
+/* FAQ */
+.contain-faq {
+    width: 70%;
+    margin: auto;
+}
+.faq {
+    margin-top: 10%;
+}
+.faq li {
+    list-style: none;
+    height: 70px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    line-height: 70px;
+    font-weight: bold;
+}
+.faq h2 {
+    margin-bottom: 5%;
+}
+.faq i {
+    float: right;
+    line-height: 70px;
+    margin-right: 4%;
+}
