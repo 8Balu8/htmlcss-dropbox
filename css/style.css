@@ -406,6 +406,9 @@ hr {
     line-height: 70px;
     font-weight: bold;
 }
+.faq li:last-child {
+    margin-bottom: 10%;
+}
 .faq h2 {
     margin-bottom: 5%;
 }
@@ -413,4 +416,37 @@ hr {
     float: right;
     line-height: 70px;
     margin-right: 4%;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+}
+.footer-menus {
+    width: 80%;
+    margin: auto;
+}
+.footer-menus li {
+    list-style: none;
+}
+.footer-single-menu {
+    width: 20%;
+}
+.footer-single-menu h5 {
+    margin-bottom: 10px;
+}
+.footer-single-menu li {
+    margin-bottom: 10px;
+}
+.footer-single-menu li:last-child {
+    margin-bottom: 40%;
+}
+.footer-single-menu a {
+    color: white;
+    font-size: 13px;
+}
+.line-footer {
+    color: lightgray;
 }
