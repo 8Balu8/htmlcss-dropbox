@@ -46,11 +46,11 @@ header {
     position: fixed;
     width: 100%;
     top:0;
-    height: 50px;
+    min-height: 50px;
     border-bottom: 1px solid gray;
 }
 .col-nav {
-    height: 50px;
+    min-height: 50px;
     line-height: 50px;
 }
 
@@ -209,7 +209,7 @@ div.cont-col h3 {
     width: 30%;
     margin-top: 20px;
     border: 1px solid lightgray;
-    height: 800px;
+    min-height: 800px;
 }
 .col-standard {
     margin-left: 5%;
@@ -290,6 +290,7 @@ hr {
 .col-operations, .col-operations-center {
     width: 30%;
     margin-top: 2%;
+    margin-bottom: 10%;
 }
 .col-operations-center {
     margin-left: 5%;
@@ -446,6 +447,9 @@ footer {
 .footer-single-menu a {
     color: white;
     font-size: 13px;
+}
+.footer-single-menu a:hover {
+    text-decoration: underline;
 }
 .languages {
     margin-bottom: 10%;
