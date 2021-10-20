@@ -290,7 +290,6 @@ hr {
 .col-operations, .col-operations-center {
     width: 30%;
     margin-top: 2%;
-    margin-bottom: 10%;
 }
 .col-operations-center {
     margin-left: 5%;
@@ -300,9 +299,8 @@ hr {
     margin-bottom: 5%;
 }
 
-/* Row2 */
-.row2-operations {
-    margin-top: 7%;
+.row2-operations p:last-child {
+    margin-bottom: 40%;
 }
 
 /* Logos clients */
