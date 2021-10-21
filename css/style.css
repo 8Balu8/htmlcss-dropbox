@@ -339,10 +339,9 @@ hr {
 }
 .box-logo img {
     filter: invert(1);
-    display: block;
     width: 60%;
     margin: auto;
-    line-height: 200px;
+    align-items: center;
 }
 #designit {
     background-color: #a2d39b;
